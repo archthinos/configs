@@ -12,9 +12,6 @@ nmap <S-Tab> :bprevious<CR>
 nnoremap <leader>e :CocCommand explorer<CR>
 noremap <C-q> :q<CR>
 
-" Clap mapping
-nmap <silent> bb :Clap buffers<CR>
-
 " new line in normal mode and back
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>
@@ -60,32 +57,6 @@ nmap <leader>sh :History/<CR>
 nmap <F1> <plug>(fzf-maps-n)
 imap <F1> <plug>(fzf-maps-i)
 vmap <F1> <plug>(fzf-maps-x)
-
-"" coc
-
-" use tab to navigate snippet placeholders
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
-" Use enter to accept snippet expansion
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<CR>"
-
-" multi cursor shortcuts
-nmap <silent> <C-a> <Plug>(coc-cursors-word)
-xmap <silent> <C-a> <Plug>(coc-cursors-range)
-
-" other stuff
-nmap <leader>rn <Plug>(coc-rename)
-nmap <leader>o :OR <CR>
-
-" jump stuff
-nmap <leader>jd <Plug>(coc-definition)
-nmap <leader>jy <Plug>(coc-type-definition)
-nmap <leader>ji <Plug>(coc-implementation)
-nmap <leader>jr <Plug>(coc-references)
 
 " Splitting windows
 nnoremap <silent> <leader>v :vsplit<cr>

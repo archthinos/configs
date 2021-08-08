@@ -60,7 +60,6 @@ call plug#end()
 " Settigns
 source ~/.config/nvim/setting.vim
 source ~/.config/nvim/keybindings.vim
-source ~/.config/nvim/plugins-config/functions.vim
 " Plugins
 source ~/.config/nvim/plugins-config/coc-config.vim
 source ~/.config/nvim/plugins-config/fzf.vim
@@ -69,3 +68,6 @@ source ~/.config/nvim/plugins-config/which-key.vim
 source ~/.config/nvim/plugins-config/airline.vim
 source ~/.config/nvim/plugins-config/visual-move.vim
 source ~/.config/nvim/plugins-config/float-term.vim
+source ~/.config/nvim/plugins-config/startify.vim
+
+source ~/.config/nvim/plugins-config/functions.vim
