@@ -1,5 +1,5 @@
 " ======================= VIM Commentary settings ================="
-nnoremap <space>/ :Commentary<CR>
-vnoremap <space>/ :Commentary<CR>
+nnoremap <space>c :Commentary<CR>
+vnoremap <space>c :Commentary<CR>
 
 

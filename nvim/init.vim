@@ -50,17 +50,22 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'bling/vim-bufferline'
 
+" ================= Terminal ======================="
+Plug 'voldikss/vim-floaterm'
+
 call plug#end()
 
 
 " Sourcing files for individual plugins "
+" Settigns
 source ~/.config/nvim/setting.vim
 source ~/.config/nvim/keybindings.vim
-
 source ~/.config/nvim/plugins-config/functions.vim
+" Plugins
 source ~/.config/nvim/plugins-config/coc-config.vim
 source ~/.config/nvim/plugins-config/fzf.vim
 source ~/.config/nvim/plugins-config/themes.vim
 source ~/.config/nvim/plugins-config/which-key.vim
 source ~/.config/nvim/plugins-config/airline.vim
 source ~/.config/nvim/plugins-config/visual-move.vim
+source ~/.config/nvim/plugins-config/float-term.vim
