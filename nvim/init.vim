@@ -15,6 +15,7 @@ Plug 'ryanoasis/vim-devicons'                           " pretty icons everywher
 Plug 'luochen1990/rainbow'                              " rainbow parenthesis
 Plug 'ghifarit53/tokyonight-vim'                        " Tokyonight color theme
 Plug 'hzchirs/vim-material'                             " material color themes
+Plug 'rakr/vim-one'
 Plug 'gregsexton/MatchTag'                              " highlight matching html tags
 Plug 'Jorengarenar/vim-MvVis'                           " move visual selection
 
