@@ -45,6 +45,7 @@ Plug 'StanAngeloff/php.vim', { 'for': 'php' }
 Plug 'stephpy/vim-php-cs-fixer', { 'for': 'php' }
 Plug 'jwalton512/vim-blade'
 Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install --no-dev -o'}
+Plug 'vim-vdebug/vdebug'
 
 " ===================== Airline ============================== "
 Plug 'vim-airline/vim-airline'
@@ -55,6 +56,7 @@ Plug 'bling/vim-bufferline'
 Plug 'voldikss/vim-floaterm'
 
 call plug#end()
+
 
 
 " Sourcing files for individual plugins "
@@ -70,5 +72,6 @@ source ~/.config/nvim/plugins-config/airline.vim
 source ~/.config/nvim/plugins-config/visual-move.vim
 source ~/.config/nvim/plugins-config/float-term.vim
 source ~/.config/nvim/plugins-config/startify.vim
+source ~/.config/nvim/plugins-config/vdebug.vim
 
 source ~/.config/nvim/plugins-config/functions.vim
