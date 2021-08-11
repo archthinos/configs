@@ -43,10 +43,13 @@ Plug 'unblevable/quick-scope'
 " ==================== Php specific plugins ================= "
 
 Plug 'StanAngeloff/php.vim', { 'for': 'php' }
+Plug 'adoy/vim-php-refactoring-toolbox'
 Plug 'stephpy/vim-php-cs-fixer', { 'for': 'php' }
 Plug 'jwalton512/vim-blade'
 Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install --no-dev -o'}
 Plug 'vim-vdebug/vdebug'
+Plug 'preservim/tagbar'
+Plug 'Chiel92/vim-autoformat'
 
 " ===================== Airline ============================== "
 Plug 'vim-airline/vim-airline'
@@ -74,5 +77,8 @@ source ~/.config/nvim/plugins-config/visual-move.vim
 source ~/.config/nvim/plugins-config/float-term.vim
 source ~/.config/nvim/plugins-config/startify.vim
 source ~/.config/nvim/plugins-config/vdebug.vim
+source ~/.config/nvim/plugins-config/php-cs-fixer.vim
+source ~/.config/nvim/plugins-config/refactoring-toolbox.vim
+source ~/.config/nvim/plugins-config/tagbar.vim
 
 source ~/.config/nvim/plugins-config/functions.vim
